@@ -4,4 +4,21 @@
 .text-center {text-align: center;}
 .text-right {text-align: right;}
 .overline-orange {text-decoration: overline;text-decoration-color: orange;}
-img {width: 30%;height: auto;}
+img {width: 20%;height: auto;}
+.rem3 {font-size: 3rem;}
+.rem4 {font-size: 4rem}
+.img-f-left {float: left;}
+body {
+    background-image:
+    url(../img/fon1.jpg),
+    url(../img/fon1.jpg),
+    url(../img/fon1.jpg);
+    background-repeat:
+    repeat-y,
+    repeat-y,
+    repeat-y;
+    background-position:
+    right top,
+    calc(100% - 5rem) top,
+    calc(100% - 10rem) top;
+    background-size: 5rem auto;}
